@@ -1,5 +1,7 @@
 # Optimized Code for Grove LED Bar v2.0 with MY9221 Controller
 
+<img src="https://github.com/mumanchu/mumanchu/blob/main/assets/MY9221LedBar/my9221-led-bar.jpg" alt="Picture of Grove LED Bar board" width="300">
+
 ## Blurb
 This is a 10-segment led bar display with a fast 2-wire serial interface using data and clock signals. It is unusual in that the data is clocked in on the rising AND the falling edges of the 
 clock.
@@ -42,7 +44,7 @@ https://files.seeedstudio.com/wiki/Grove-LED_Bar/res/MY9221_DS_1.0.pdf
 
 ## Joke of the Week
 
-_Time does not exist! \
-I can prove it in 5 minutes..._
+_**Time does not exist!!!**_ \
+_I can prove it to you in 5 minutes..._
 
 
