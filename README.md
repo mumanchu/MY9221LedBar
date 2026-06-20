@@ -23,7 +23,23 @@ to update one display. Using the standard `digitalWrite()` it takes 880us.
 > The module runs on 3.3V or 5V. If using a 3.3V module you must connect the VCC pin to 3.3V, NOT TO 5V! \
 > At full brightness, each module uses 250mA. With two modules that's HALF AN AMP! Most microcontroller boards cannot supply that much power, so keep the display brightness really low (e.g. 8) or use a separate 3.3 or 5V power supply.
 
-## References
+## Class refernce
+
+Please read the commented source code and exmaple sketch for more details.
+
+```cpp
+class MY9221LedBar
+{
+public:
+	bool begin(byte dataPin, byte clockPin);
+	void setAllLeds(byte brightness, byte module = 0);
+	void setLevel(uint value, byte brightness, byte module = 0);
+	void setLed(byte led, byte brightness, byte module = 0);
+	void refreshDisplays();
+};
+```
+
+## Useful Links
 
 **Product** \
 https://www.seeedstudio.com/Grove-LED-Bar-v2-0.html
