@@ -151,7 +151,7 @@ void MY9221LedBar::send16Bits(uint16_t value)
 	}
 }
 
-// Clock the data received by the chip to its led outputs
+// Clock the data received by the chip(s) to the led outputs
 void MY9221LedBar::latch()
 {
 	data.reset();
