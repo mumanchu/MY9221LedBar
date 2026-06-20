@@ -25,9 +25,9 @@ to update one display. Using the standard `digitalWrite()` it takes 880us.
 > The module runs on 3.3V or 5V. If using a 3.3V module you must connect the VCC pin to 3.3V, NOT TO 5V! \
 > At full brightness, each module uses 250mA. With two modules that's HALF AN AMP! Most microcontroller boards cannot supply that much power, so keep the display brightness really low (e.g. 8) or use a separate 3.3 or 5V power supply.
 
-## Class reference
+## Class Reference
 
-Please read the commented source code and exmaple sketch for more details.
+Please read the commented source code and example sketch for more details.
 
 ```cpp
 class MY9221LedBar
