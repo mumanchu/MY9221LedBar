@@ -2,6 +2,8 @@
 
 <img src="https://github.com/mumanchu/mumanchu/blob/main/assets/MY9221LedBar/my9221-led-bar.jpg" alt="Picture of Grove LED Bar board" width="300">
 
+Please email me if you have any questions or \[polite\] suggestions, info@muman.ch 
+
 ## Blurb
 This is a 10-segment led bar display with a fast 2-wire serial interface using data and clock signals. It is unusual in that the data is clocked in on the rising AND the falling edges of the 
 clock.
@@ -23,7 +25,7 @@ to update one display. Using the standard `digitalWrite()` it takes 880us.
 > The module runs on 3.3V or 5V. If using a 3.3V module you must connect the VCC pin to 3.3V, NOT TO 5V! \
 > At full brightness, each module uses 250mA. With two modules that's HALF AN AMP! Most microcontroller boards cannot supply that much power, so keep the display brightness really low (e.g. 8) or use a separate 3.3 or 5V power supply.
 
-## Class refernce
+## Class reference
 
 Please read the commented source code and exmaple sketch for more details.
 
