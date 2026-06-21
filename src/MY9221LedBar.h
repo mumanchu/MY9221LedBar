@@ -35,9 +35,9 @@ This code uses fast digital I/O provided by mumanchu's 'Optimized
 GPIO' library which you can get here:
 https://github.com/mumanchu/OptimizedGPIO
 This is up to 3 times faster than using the standard digitalWrite() 
-methods. Using optimised GPIO on a 72MHz processor it takes 360us 
-to update one display. Using the standard digitalWrite() it takes 
-880us.
+methods. Using optimised GPIO on a 72MHz processor it takes 460us 
+to update two displays. Using the standard digitalWrite() it takes 
+1600us.
 
 !!WARNINGS!!
 
