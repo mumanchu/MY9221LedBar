@@ -53,7 +53,7 @@ void loop()
 		led.setLevel(rand() % 11, brightness, 0);
 
 		// uncomment this if using two cascaded modules
-		// set MY9221_NUMBER_OF_MODULES = 2, see above
+		// and set MY9221_NUMBER_OF_MODULES = 2, see above
 		//led.setLevel(rand() % 11, brightness, 1);
 
 		led.refreshDisplays();
