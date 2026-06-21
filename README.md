@@ -63,6 +63,6 @@ https://files.seeedstudio.com/wiki/Grove-LED_Bar/res/MY9221_DS_1.0.pdf
 ## Joke of the Week
 
 _**Time does not exist!!!**_ \
-_I can prove it to you in 5 minutes..._
+_I can prove it in 5 minutes..._
 
 
